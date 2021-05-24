@@ -1,0 +1,231 @@
+* {
+    border-style: none;
+    border-width: 0px;
+
+}
+
+
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center
+}
+
+content {
+    display: flex;
+    justify-content: center;
+    width: 608px;
+}
+
+contentlvltwo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.navbar h2 {
+    color: white
+}
+
+#btn-sign-out {
+    margin-left: 160px;
+    background-color: rgb(9, 168, 189);
+    color: white;
+    width: 100px;
+    height: 25px;
+    box-shadow: 2px 2px gray;
+}
+#view-more{
+    border-top:3px solid rgba(128, 128, 128, 0.589);
+    width:inherit;
+    padding:5px 0px 5px 40px
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fix-ratio {
+    width: 9.8px;
+}
+
+
+.card {
+    width: 360px;
+    margin-right: 4px
+}
+
+.card h3 {
+    display: inline;
+}
+
+.card .sqr-img {
+    width: 15px;
+    height: 15px
+}
+
+.card-bg-blue {
+    margin-top: 10px;
+    width: inherit;
+    height: 60px;
+    background-color: rgb(115, 178, 180)
+}
+
+#user-circle {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.card-content {
+    border-top: none;
+    padding: 0px 10px 10px 10px;
+    border: 3px solid rgba(128, 128, 128, 0.589);
+    border-top: none;
+}
+
+
+
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.same-size-img {
+    width: 20px;
+    height: 20px;
+}
+
+div.connection {
+    width: 240px;
+    height: 200px;
+    border: 3px solid rgba(128, 128, 128, 0.589);
+    margin-top: 10px;
+    margin-left: 4px;
+    padding-bottom: 15px;
+    border-top: none
+}
+
+.connection-extended {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.banner-of-div {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 226px;
+    padding: 0px 10px;
+    align-items: baseline;
+
+}
+
+.banner-of-div h2 {
+    font-size: 1.0em;
+}
+
+#btn-req-count {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#btn-connection-count{
+        width: 50px;
+        height: 30px;
+        border-radius: 50%;
+        margin-top: 20px;
+} 
+.persons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education {
+    border: 3px solid rgba(128, 128, 128, 0.589);
+    height: 300px;
+    border-top:none;
+
+}
+
+.yourconnection {
+    border: 3px solid rgba(128, 128, 128, 0.589);
+    border-top: none;
+    height: 340px;
+    width: 240px;
+    position: relative;
+    bottom: 70px;
+
+}
+.columnize{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        overflow:hidden;
+}
+.my-friends{
+    width:inherit;
+    margin-left:40px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.education{
+    margin-right:8px;
+    width:353px;
+    height:240px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.banner-of-education{
+    width:inherit;
+    height:60px;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center
+}
+.institutions{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+
+}
+.institutions *{
+    margin:0px 0px 10px 10px;
+}
+.institutions h6 {
+    padding: 0px 0px 5px 0px;
+    color:gray
+}
